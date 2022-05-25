@@ -7,8 +7,7 @@ import com.chicken.repository.TotalStoreDBRepository;
 import com.chicken.type.UserType;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.Map;
+
 
 import static com.chicken.OrderSystem.printWithArrow;
 import static com.chicken.OrderSystem.sc;

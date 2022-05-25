@@ -17,10 +17,10 @@ public class LoginManager {
     private static LoginManager sInstance;
 
     private LoginManager() {
-        members.put("aaaaa", new LoginInfo("aaaaa", "pppppp", "손님1", 1));
-        members.put("bbbbb", new LoginInfo("bbbbb", "pppppp", "손님2", 1));
-        members.put("ccccc", new LoginInfo("ccccc", "pppppp", "손님3", 1));
-        members.put("ddddd", new LoginInfo("ddddd", "pppppp", "점장", 2));
+        members.put("aaaaa", new LoginInfo("aaaaa", "pppppp", "손님1", UserType.TYPE_GUEST));
+        members.put("bbbbb", new LoginInfo("bbbbb", "pppppp", "손님2", UserType.TYPE_GUEST));
+        members.put("ccccc", new LoginInfo("ccccc", "pppppp", "손님3", UserType.TYPE_GUEST));
+        members.put("ddddd", new LoginInfo("ddddd", "pppppp", "점장", UserType.TYPE_OWNER));
     }
 
     public static LoginManager getInstance() {
